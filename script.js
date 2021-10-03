@@ -105,8 +105,9 @@ function gerarListaSeed() {
     mostrarLista();
 }
 
-function removerPessoa() {
-    
+function removerPessoa(indice) {
+    // O argumento "indice" determina a posição do primeiro item a ser excluído e o argumento "1" determina o número de elementos a serem excluídos.
+    pessoas.splice(indice, 1)
 }
 
 function alterarPessoa() {
